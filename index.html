@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>莫小奈工作室</title>
+    <link rel="stylesheet" href="./frontend.css">
+</head>
+<body  data-page="main" class="">
+    <div id="dp-case">
+            <!-- HEADER -->
+        <div id="header">
+            <div id="global-music">
+                <audio id="audio-gb" preload="auto" autoplay tabindex="0"><source src="./bgm.mp3"></audio>
+            </div>
+        </div>            <!-- HEADER -->
+        <div id="updatable-cnt">
+            <div class="home-ctn">
+                <div id="index-px" class="cmm-hm">
+                    <div class="img-hm layer" data-depth="0.00"></div>
+                    <div class="title-hm img-hm layer" data-depth="0.10">Pivovarov Music</div>
+                    <div class="circle-hm img-hm layer" data-depth="0.20">Artem Music</div>
+                    <div class="cover-hm img-hm layer" data-depth="0.30">
+                        <div class="lamp"></div>
+                        <div class="ball ball1"></div>
+                        <div class="ball ball2"></div>
+                        <div class="ball ball3"></div>
+                    </div>
+                </div>
+                <div class="cmm-hm">
+                    <div id="change-glitch" class="photo-hm img-hm">Artem Pivovarov</div>
+                    <div class="circle-mp"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./jquery.parallax.min.js"></script>
+    <script type="text/javascript">
+        $('#index-px').parallax();
+    </script>
+</body>
+</html>
